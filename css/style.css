@@ -1,0 +1,372 @@
+*{
+margin: 0;
+padding: 0;
+max-width: 100vw;
+}
+#boverride h1, h2, h3, h4, h5, h6{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.display-4{
+text-align: center;
+}
+.lead{
+    text-align: center;
+}
+.jumboflex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+
+}
+.card-textR{
+    display: flex;
+    align-content: flex-start;
+    flex-flow: row wrap;
+}
+.card-textR p{
+    width: 10rem;
+    margin: 5px;
+}
+img{
+    max-width: 100%;
+    padding: 10px;
+}
+.persona{
+    display: block;
+}
+.personaImg:hover {
+    background-color: #f1f1f1;
+}
+
+.persona p{
+    display: block;
+}
+.persona h3{
+    display: block;
+
+}
+.persona img{
+    display: block;
+
+}
+
+ /*dropdown  */
+ .containerdd {
+
+    font-family: "Open Sans", helvetica, sans-serif;
+  }
+  #dropDown {
+    display: none;
+  }
+  #toggle {
+    background-color:#F8F8F8;
+    padding: 15px;
+    color: #352985;
+    font-weight: 500;
+    cursor: pointer; 
+    border:  #352985 5px solid;
+    font-weight:lighter;
+    font-size: 22px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #dropDown2 {
+    display: none;
+  }
+  #toggle2 {
+    background-color:#F8F8F8;
+    padding: 15px;
+    color: #352985;
+    font-weight: 500;
+    cursor: pointer; 
+    border:  #352985 5px solid;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+/* #boverride h1 h2 h3 h4 h5 h6 {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto; */
+
+/* .article{
+    padding: 2rem;
+} */
+.needscompared {
+    padding: 2rem;
+}
+td {
+    padding: 7px;
+}
+tr:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+
+.infoSource {
+    display: block;
+    padding: 5px;
+    margin-bottom: 30px;
+    font-style: italic;
+    text-align: right;
+}
+
+.card-deck {
+    flex-wrap: wrap;
+}
+.card-group{
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sfbackground{
+    /* border: 3px green solid; */
+}
+.sfbackground img{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+li {
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+.goalbox {
+    max-height: 25rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #F8F8F8;
+    font-size: larger;
+
+}
+.goalbox li{
+    font-size: large;
+    font-weight: 500;
+
+}
+.goalbox ol{
+    padding: 15px;
+    margin-top: 2rem ;
+    background-color: #212121;
+    list-style-position: inside;
+}
+
+.logocompare {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 150px 40px;
+}
+.logocompare h6{
+    text-align: center;
+    margin: auto;
+    background-color: rgb(241, 241, 241);
+}
+
+.logocompare img {
+    height: 8rem;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* Individual Grid */
+.PGridContain {
+    display: flexbox;
+    flex-direction: column;
+}
+.Pinfo {
+    display: flex;
+}
+.Pinfo p{
+    margin: 10px;
+}
+.PgridA {
+    margin: 20px;
+}
+.PgridB{
+    padding: 10px;
+}
+.PgridB img{
+    max-width: 100%;
+}
+.PgridC {
+    padding: 20px;
+}
+.PgridD {
+    padding: 20px;
+}
+.Statement {
+    padding-top:30px ;
+    padding-bottom:30px ;
+    background-color: lightgray;
+}
+.Qbody {
+    margin-top: 10px;
+}
+.Statement P{
+    font-style: italic;
+}
+.ddMenu{
+    display: block;
+}
+.ddMenu p{
+    display: block;
+}
+.ddMenu img{
+    display: block;
+}
+.layoutWires {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+}
+.layoutWires img{
+    justify-content:center;
+    width: 90%;
+    margin: auto;
+    margin-top: 0px;
+    padding: 0px;
+}
+.center{
+    text-align: center;
+    margin: 50px;
+}
+#navCenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.midfi p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.midcolumn {
+    float: left;
+    width: 50%
+}
+.midcolumn img{
+    /* margin: 10px ; */
+}
+  .midfi:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.results{
+    list-style-position: inside;
+    margin: 3rem;
+  }
+#resultList{
+    list-style-position: inside;
+    margin: 3rem;
+}
+
+/*     
+border: 1px red solid;
+ */
+ @media (min-width: 576px) { 
+     .persona{
+        display: grid;
+        grid-template-columns: 1fr 300px;
+        grid-template-rows: 3rem 1fr;
+
+    }
+    .persona p{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        border: 0px green solid;
+
+    }
+    .persona h3{
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    .persona img{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        border: 0px green solid;
+    }
+    .ddMenu{
+        display: grid;
+        grid-template-columns:578px 1fr ;
+        grid-template-rows: 1fr;
+        }
+    .ddMenu p{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .ddMenu img{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        border: 0px green solid;
+        }
+ }
+
+ @media screen and (min-width: 768px){
+    .container {
+        border: 0px;
+     }
+     .goalbox {
+    width: 70%; 
+    }
+
+    .sfbackground img{
+        display: block;
+    }
+    .PGridContain {
+        max-width: 70%;
+        margin: auto;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 2;
+        grid-template-rows: 2;
+    }
+    .PgridA {
+        grid-row: 1/2;   
+        grid-column: 1/2;
+    }
+    .PgridB{
+        grid-row: 1/3;   
+        grid-column: 2/3;
+        padding: 10px;
+    }
+    .PgridC img{
+        max-width: 100%;
+    }
+    .PgridC {
+        grid-row: 2/3;   
+        grid-column: 1/2;
+        padding: 20px;
+    }
+    .PgridD {
+        grid-row: 2/3;   
+        grid-column: 2/3;
+        padding: 20px;
+    }
+    .infogrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 30% 70%;
+    }
+    .iga{
+        grid-row: 1/3;
+        grid-column: 3/5;
+        margin: auto;
+    }
+    .igb{
+        grid-row: 1/2;
+        grid-column: 1/3;
+    }
+    .igc{
+        grid-row: 2/3;
+        grid-column: 1/3;
+    }
+}  
+ 
